@@ -1,0 +1,144 @@
+.contact-me-container {
+    background-color: #a5a5a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-me-card {
+    width: 90%;
+    max-width: 1000px;
+    animation: fadeIn 1.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact-me-left,
+  .contact-me-right {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+  }
+  
+  .contact-heading {
+    color: #ef4713;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .contact-subheading {
+    margin-bottom: 1.5rem;
+    color: #03a9f4;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    animation: slideIn 1.2s ease-in-out;
+  }
+  
+  .contact-paragraph {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: #fff;
+    font-size: 1.1rem;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #6a11cb;
+    outline: none;
+  }
+  
+.submit-btn {
+    background:  #ef4713;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    animation: fadeIn 1.8s ease-in-out;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background: #225ec5;
+  }
+  
+  .contact-me-extra h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    animation: slideIn 1.5s ease-in-out;
+  }
+  
+  .contact-me-extra p a {
+    color: #6a11cb;
+    text-decoration: none;
+    transition: color 0.3s;
+    animation: fadeIn 1.8s ease-in-out;
+  }
+  
+  .contact-me-extra p a:hover {
+    color: #03a9f4;
+  }
+
+.colz-icon a i {
+  padding: 20px;
+  padding-left: 0px;
+  font-size: 30px;
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.colz-icon a i:hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+  .contact-me-card {
+    padding: 2rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-me-left,
+  .contact-me-right {
+    min-width: 100%;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.85rem;
+  }
+}
+
+  

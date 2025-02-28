@@ -1,0 +1,8 @@
+.main {
+  margin: 0;
+  padding: 0;
+  background-image: url(../src/assets/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 94vh; 
+}
