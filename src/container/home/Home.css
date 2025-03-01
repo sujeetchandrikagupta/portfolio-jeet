@@ -153,10 +153,10 @@
   }
 }
 /* Medium Devices (Laptops & Tablets) */
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .shape{
         position: absolute;
-        bottom: 5rem;
+        bottom:52rem;
     }
     .home-pg-contant {
         gap: 3rem;
