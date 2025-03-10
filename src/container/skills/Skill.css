@@ -54,7 +54,13 @@
     font-size: 22px;
   }
 }
-
+@media (min-width: 840px) and (max-width: 1023px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 15px;
+  }
+}
 @media (max-width: 768px) {
   .grid-container {
     gap: 20px;
