@@ -152,6 +152,16 @@
     bottom: 13rem;
   }
 }
+@media(max-width: 1180px) {
+  .shape{
+    display: none;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1179px) {
+  .shape{
+    display: none;
+  }
+}
 /* Medium Devices (Laptops & Tablets) */
 @media (max-width: 1024px) {
     .shape{
